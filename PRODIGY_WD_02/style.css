@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('hourglass.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.8; /* Adjust this value to set the opacity */
+    z-index: -1; /* Ensure the background is behind the content */
+}
+
+
+
+.container {
+    
+    text-align: center;
+    display: flex;
+}
+
+.left {
+    padding-left: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.right {
+    padding-left: 80px;
+
+}
+
+.stopwatch {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px azure;
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: gray;
+    color: azure;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
