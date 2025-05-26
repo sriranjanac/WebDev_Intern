@@ -75,19 +75,6 @@ _This folder exists in the repository but its contents are not detailed here. Pl
 3. Open `index.html` with your web browser.
 
 ---
-
-## Screenshots
-
-> Add your screenshots for each subdirectory in the relevant sections above for a complete showcase!
-
----
-
-## License
-
-MIT License
-
----
-
 ## Author
 
 - [sriranjanac](https://github.com/sriranjanac)
